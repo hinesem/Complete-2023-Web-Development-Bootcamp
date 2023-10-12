@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Positioning Exercise</title>
+  <style>
+    /* Write your code here */
+    .boxA {
+      background-color: brown;
+      position: relative;
+      width: 100px;
+      height: 100px;
+    }
+
+    .boxAa {
+      background-color: gray;
+      position: absolute;
+      left: 5px;
+      top: 5px;
+      width: 75px;
+      height: 75px;
+    }
+
+    .boxAb {
+      background-color: orange;
+      position: absolute;
+      left: 3px;
+      top: 3px;
+      width: 10px;
+      height: 10px;
+    }
+
+    .boxB {
+      background-color: darkolivegreen;
+      width: 100px;
+      height: 100px;
+      margin-top: 5px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="boxA">
+    <div class="boxAa">
+      <div class="boxAb"></div>
+    </div>
+  </div>
+  <div class="boxB"></div>
+
+</body>
+
+</html>
