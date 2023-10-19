@@ -37,8 +37,8 @@ footer {
   float: right;
 }
 
-.spanColor {
-  color: midnightblue
+.creative {
+  color: midnightblue;
 }
 
 @media (max-width: 680px) {
@@ -50,6 +50,7 @@ footer {
     font-size: 3.5rem;
     text-align: center;
   }
+
   .card {
     width: 100%;
     display: block;
@@ -61,9 +62,10 @@ footer {
     margin-bottom: 10px;
     width: 100%;
     display: inline;
-    object-fit: contain;
+    object-fit: cover;
   }
 }
+
 
 
 
