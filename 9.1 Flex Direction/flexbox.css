@@ -13,25 +13,31 @@ body {
   height: 3px;
 }
 
-.top-nav-bar {
+.top-nav-bar-container {
+  display: flex;
   background-color: rgb(41,45,56);
-  overflow: hidden;
-}
-
-.top-nav-bar a{
   color: white;
-  float: left;
-  text-align: center;
-  padding: 10px 16px;
+  height: 25px;
 }
 
-.top-nav-bar a:hover {
-  background-color: red;
+.top-nav-bar-item {
+  flex-grow: 1;
+  border: solid red 1px;
+  background-color: lightcoral;
+  display: flex; /*required to center text in flex-item*/
+  justify-content: center; /*centers text inside flex-item*/
+  /* align-items: center; */
+
 }
 
-.top-nav-right > a {
-  float: right;
+.tanium-production {
+  flex-grow: 2;
+  transform: skew(-15deg);
 }
+
+.tanium-production  > p {
+  transform: skew(15deg);
+} 
 
 .env-status {
   background-color: rgb(29,41,57);
